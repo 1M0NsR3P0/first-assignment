@@ -1,0 +1,44 @@
+/* main styles */
+*{
+    margin: 0;
+    font-family: work sans, sans-serif;
+}
+    .primary-button{
+        width: 160px;
+        height: 64px;
+        background: #F15B22;
+        color: white;
+        font-size: 20px;
+        border-radius: 5px;
+        border: 0;
+        padding:15px;
+    }
+/* Header style */
+.background{
+    background-image: url('../images/banner/banner1.png');
+    height: 710px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 0;
+    background-size:100% ;
+    
+}
+.banner{
+    text-align: right;
+    padding-right: 100px;
+    margin-left: 700px;
+    padding-top: 250px;
+}
+.banner h1{
+    font-size: 60px;
+    font-weight: 1000;
+    
+}
+.banner p{
+    font-size: 14px;
+    font-weight: 80;
+    margin: 20px 0 30px 80px;
+    color: rgb(109, 108, 108);
+}
+.banner button
