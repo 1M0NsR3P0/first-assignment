@@ -15,7 +15,7 @@
     }
 /* Header style */
 .background{
-    /* vai bujlam na style tu git push korcilam?? */
+   
     background-image: url('../images/banner/banner1.png');
     height: 710px;
     width: 100%;
@@ -94,8 +94,8 @@
 /* plan section */
 .myplan-header{
 text-align: center;
-font-size: 35px;
-font-weight: 800;
+font-size: 25px;
+font-weight: 900;
 margin-top: 50px;
 }
 .plan-container{
@@ -103,13 +103,126 @@ display: flex;
 gap: 150px;
 padding-left: 200px;
 margin-top: 70px;
+text-align: center;
 }
-.plan-ttile{
 
+/* footer banner */
+.footer-banner{
+   background-image:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),
+    url("../images/watch.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 250px;
+   margin: 100px 150px 0 200px;
+    text-align: left;
+    margin-bottom: 100px;
 }
-.plan-para{
+.footer-banner h2{
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 400px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: 800;
+}
+.button-secondary{
+    background-color: rgb(0, 184, 122);
+    color:#ffffff;
+    height: 48px;
+    width: 110px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+/* footer section */
 
+.footer-container{
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    text-align: left;
+    gap: 200px;
+    padding: 150px 150px 50px 200px;
+    color: white;
+    padding-bottom:100px ;
+    
 }
-.plan-contents img{
+.footer-title{
+    margin-bottom:15px ;
+    font-size: 22px;
+    font-weight: 900;
+}
+.footer-para{
+    margin-bottom: 10px;
+    padding-right: 150px;
+    font-size: 15px;
+    font-weight: 200;
+}
+.footer-mail{
+    margin-bottom: 15px;
+}
+.footer-phone{
+    margin-bottom:15px ;
+}
+.footer-icon{
+    margin-bottom: 50px;
+    margin-top: 20px;
+    
+}
+.footer-icon img{
+    padding-right: 20px;
+}
+/* form section */
 
+.form h2{
+    margin-bottom: 20px;
 }
+input{
+    margin-bottom: 10px;
+    padding: 20px 40px 20px 15px;
+    background-color: rgb(27, 27, 27);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+}
+#Subscribe{
+    background-color: red;
+    margin-left: 0.5px;
+    width: 140px;
+    padding: 10px 25px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .footer-banner img{
+    height: 200px;
+    width: 1000px;
+    padding: 0;
+    margin-right: 200px;
+    margin-left: 0;
+    position: absolute;
+} */
