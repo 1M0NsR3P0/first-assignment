@@ -15,6 +15,7 @@
     }
 /* Header style */
 .background{
+    /* vai bujlam na style tu git push korcilam?? */
     background-image: url('../images/banner/banner1.png');
     height: 710px;
     width: 100%;
@@ -41,4 +42,74 @@
     margin: 20px 0 30px 80px;
     color: rgb(109, 108, 108);
 }
-.banner button
+/* failure section */
+
+.failure-container{
+    display: flex;
+    margin-top: 100px;
+    /* background-image:url(../images/person.png);
+    background-repeat:no-repeat;
+    background-position: left top; */
+}
+
+
+.failure-content{
+    
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.failure img{
+    width: 750px;
+    height: 600px;
+    padding-left: 150px;
+ 
+}
+.failure-title{
+    margin-top: 200px;
+    text-align: left;
+    font-size: 35px;
+    font-weight: 900;
+    padding-right:350px;
+}
+.failure-p{
+    text-align: left;
+    padding-right: 300px;
+    padding-top: 30px;
+    font-size: 13px;
+    color: rgb(97, 94, 94);
+    line-height: 20px;
+}
+.failure-list{
+    list-style: '\2713' ;
+    text-align: left;
+    padding: 10px;
+    font-weight: 500;
+    
+}
+.failure-list li{
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgb(97, 94, 94);
+}
+/* plan section */
+.myplan-header{
+text-align: center;
+font-size: 35px;
+font-weight: 800;
+margin-top: 50px;
+}
+.plan-container{
+display: flex;
+gap: 150px;
+padding-left: 200px;
+margin-top: 70px;
+}
+.plan-ttile{
+
+}
+.plan-para{
+
+}
+.plan-contents img{
+
+}
